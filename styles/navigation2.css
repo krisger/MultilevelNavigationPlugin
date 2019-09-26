@@ -1,0 +1,86 @@
+.navigation2 ul, .navigation2{
+	padding:0;
+}
+
+.navigation2 li {
+	color: white;
+	list-style-type: none;
+}
+
+.navigation2 li {
+	background-color: #000;
+}
+
+.navigation2 li a {
+	display: block;
+	width: 100%;
+	color:white;
+	text-decoration:none;
+	padding: 5px;
+}
+
+.navigation2 li.selected {
+	background-color: #eb8e09;
+}
+
+.navigation2 li.selected a {
+	background-color: #eb8e09;
+	color: white;
+}
+
+.navigation2 li.selected > ul {
+	background-color: #F5F5F5;
+	color: black;
+}
+
+.navigation2 li.selected > ul > li {
+	position: relative;
+	border-bottom: 0px;
+}
+
+.navigation2 li.selected > ul > li:before {
+	content: "\25BA \0020";
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	color: black
+}
+
+.navigation2 li.selected > ul > li a {
+	background-color:#F5F5F5;
+	color: black;
+}
+
+.navigation2 li.selected > ul > li.selected {
+	color: #eb8e09;
+}
+
+.navigation2 li.selected > ul > li.selected :before {
+	content: "\25BA \0020";
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	color: #eb8e09;
+}
+
+.navigation2 li.selected > ul > li.selected a:visited{
+	color: #eb8e09;
+}
+
+ul.navigation2 > li ul {
+	display:none;
+}
+
+ul.navigation2 li.active > a {
+	color:green;
+}
+
+.navigation2 li > ul li a
+{
+	position:relative;	
+}
+
+.navigation2 li.active > ul {
+	display:block;
+	padding-left:10px;
+}

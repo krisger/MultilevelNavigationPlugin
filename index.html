@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+		<script src="src/navigation.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/navigation1.css">
+		<link rel="stylesheet" type="text/css" href="styles/navigation2.css">
+		
+		<script>
+		 $(function(){
+			$('.navigation').navigation();
+			$('.navigation2').navigation({
+				showOnlySelected : false,
+				animate : false
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<ul class='navigation'>
+			<li>
+				<a href="#" >L1-1</a>
+				</li>
+			<li>
+				<a href="#" >L2-1</a>
+			</li>
+			<li>
+				<a href='#'>L3-1</a>
+				<ul>
+					<li><a href='#'>L1-2</a></li>
+					<li><a href='#'>L2-2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href='#'>L4-1</a>
+				<ul>
+					<li><a href='#'>L1-2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href='#'>L5-1</a>
+				<ul>
+					<li>
+						<a href='#'>L1-2</a>
+						<ul>
+							<li>
+								<a href='#'>L1-3</a>
+								<ul>
+									<li>
+										<a href='#'>L1-4</a>
+									</li>
+									<li>
+										<a href='#'>L2-4</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='#'>L2-2</a>
+					</li>
+					<li>
+						<a href='#'>L3-2</a>
+					</li>	
+				</ul>
+			</li>
+		</ul>
+		<ul class='navigation2'>
+			<li>
+				<a href="#" >L1-1</a>
+			</li>
+			<li>
+				<a href="#" >L2-1</a>
+			</li>
+			<li>
+				<a href='#'>L3-1</a>
+				<ul>
+					<li><a href='#'>L1-2</a></li>
+					<li><a href='#'>L2-2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href='#'>L4-1</a>
+				<ul>
+					<li><a href='#'>L1-2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href='#'>L5-1</a>
+				<ul>
+					<li>
+						<a href='#'>L1-2</a>
+						<ul>
+							<li>
+								<a href='#'>L1-3</a>
+								<ul>
+									<li>
+										<a href='#'>L1-4</a>
+									</li>
+									<li>
+										<a href='#'>L2-4</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='#'>L2-2</a>
+					</li>
+					<li>
+						<a href='#'>L3-2</a>
+					</li>	
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
