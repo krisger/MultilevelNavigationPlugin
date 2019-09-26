@@ -82,5 +82,9 @@ ul.navigation2 li.active > a {
 
 .navigation2 li.active > ul {
 	display:block;
+	
+}
+
+.navigation2 li > ul {
 	padding-left:10px;
 }

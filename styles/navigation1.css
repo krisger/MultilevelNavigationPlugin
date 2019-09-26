@@ -80,7 +80,7 @@ ul.navigation li.active > a {
 	position:relative;	
 }
 
-.navigation li.active > ul {
+.navigation li > ul {
 	padding-left:10px;
 }
 
