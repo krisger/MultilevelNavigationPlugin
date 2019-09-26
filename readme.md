@@ -27,8 +27,9 @@
 			elListItem: "li",
 			//Element used to find child menus
 			elList: "ul",
+			//Additional styles can be added by this class
 			activeClassName: "active",	
-			//If you choose not use default slideDown animation you will to style with css
+			//If you choose not use default slideDown animation you will able to style it with css
 			animate: true,
 			//By default only one dropdown in same level is opened
 			//You can change to false and it will leave all menu items opened
