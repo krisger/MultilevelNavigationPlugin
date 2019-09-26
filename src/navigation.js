@@ -9,13 +9,14 @@ $.fn.navigation = function( options ) {
 			elList: "ul",
 			activeClassName: "active",	
 			animate: true,
-			showOnlySelected: true
+			showOnlySelected: true,
+			animationDuration: 500
 		},
 		options
 	);  
 	
 	var animationParams = {
-		duration : 500,
+		duration : settings.animationDuration,
 		isDone: true,
 		done: function(){
 			animationParams.isDone = true;
