@@ -39,7 +39,7 @@
 </p>
 <p>
 	This plugin could be used without ul or li tags.
-	Watch examples in index.html files.
+	Watch examples in index.html file.
 </p>
 
 <h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"></a>License</h2>
