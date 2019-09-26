@@ -8,11 +8,9 @@
 <p>
 <pre lang="no-highlight">
 <code>
-//Initialize plugin like under
 	$(function(){
 		$('.navigation').navigation();
 	});
-
 </code>
 </pre>
 </p>
