@@ -1,0 +1,85 @@
+.navigation3 .list, .navigation3{
+	padding:0;
+}
+
+.navigation3 .list-item {
+	color: white;
+	list-style-type: none;
+}
+
+.navigation3 .list-item {
+	background-color: #000;
+}
+
+.navigation3 .list-item a {
+	display: block;
+	width: 100%;
+	color:white;
+	text-decoration:none;
+	padding: 5px;
+}
+
+.navigation3 .list-item.selected {
+	background-color: #eb8e09;
+}
+
+.navigation3 .list-item.selected a {
+	background-color: #eb8e09;
+	color: white;
+}
+
+.navigation3 .list-item.selected > .list {
+	background-color: #F5F5F5;
+	color: black;
+}
+
+.navigation3 .list-item.selected > .list > .list-item {
+	position: relative;
+	border-bottom: 0px;
+}
+
+.navigation3 .list-item.selected > .list > .list-item:before {
+	content: "\25BA \0020";
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	color: black
+}
+
+.navigation3 .list-item.selected > .list > .list-item a {
+	background-color:#F5F5F5;
+	color: black;
+}
+
+.navigation3 .list-item.selected > .list > .list-item.selected {
+	color: #eb8e09;
+}
+
+.navigation3 .list-item.selected > .list > .list-item.selected :before {
+	content: "\25BA \0020";
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	color: #eb8e09;
+}
+
+.navigation3 .list-item.selected > .list > .list-item.selected a:visited{
+	color: #eb8e09;
+}
+
+div.navigation3 > .list-item .list {
+	display:none;
+}
+
+div.navigation3 .list-item.active > a {
+	color:green;
+}
+
+.navigation3 .list-item > .list .list-item a
+{
+	position:relative;	
+}
+
+.navigation3 .list-item > .list {
+	padding-left:10px;
+}
