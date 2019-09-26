@@ -8,37 +8,33 @@
 <p>
 <pre lang="no-highlight">
 <code>
-
-//Itialise plugin like under
-$(function(){
-	$('.navigation').navigation();
-});
+//Initialize plugin like under
+	$(function(){
+		$('.navigation').navigation();
+	});
 
 </code>
 </pre>
-
 </p>
 <p>
-	Or initialise plugin with passed parameters:
+	Or initialize plugin with passed parameters:
 </p>
 <p>
 <pre lang="no-highlight">
 <code>
-
-$(function(){
-	$('.navigation2').navigation({
-		elListItem: "li",
-		//Element used to find child menus
-		elList: "ul",
-		activeClassName: "active",	
-		//If you choose not use default slideDown animation you will to style with css
-		animate: true,
-		//By default only one dropdown in same level is opened
-		//You can change to false and it will leave all menu items opened
-		showOnlySelected: true
-	});
-)};
-
+	$(function(){
+		$('.navigation2').navigation({
+			elListItem: "li",
+			//Element used to find child menus
+			elList: "ul",
+			activeClassName: "active",	
+			//If you choose not use default slideDown animation you will to style with css
+			animate: true,
+			//By default only one dropdown in same level is opened
+			//You can change to false and it will leave all menu items opened
+			showOnlySelected: true
+		});
+	)};
 </code>
 </pre>
 </p>
